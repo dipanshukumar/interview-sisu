@@ -1,0 +1,123 @@
+#root {
+  box-shadow: 0px 3px 6px 6px rgba(0, 0, 0, 0.4);
+  padding: 48px;
+  border-radius: 8px;
+  min-width: 520px;
+}
+.App-header nav {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.App-header nav a {
+  color: rgb(255, 166, 0);
+}
+.button-wrapper {
+  display: flex;
+  gap: 16px;
+}
+.survey-form {
+  margin-top: 24px;
+}
+.survey-form fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.survey-form fieldset label {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 16px;
+}
+.next-button {
+  margin-top: 24px;
+}
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-basis: 100%;
+}
+.form-group fieldset,
+.form-group fieldset label {
+  display: flex;
+  flex-direction: column;
+}
+.form-group fieldset {
+  border-radius: 8px;
+  background-color: aliceblue;
+  border: none;
+  color: #000;
+  margin: 0;
+  padding: 16px;
+  gap: 16px;
+}
+.form-group fieldset label {
+  font-size: 16px;
+}
+.form-group fieldset input {
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 4px;
+  color: #000;
+  font-size: 16px;
+  min-height: 32px;
+  padding: 0 8px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.btn-group {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+}
+.btn-group button {
+  border-radius: 20px;
+}
+.btn-group .low {
+  background-color: rgb(0 190 190);
+}
+.btn-group .elevated {
+  background-color: rgb(190, 190, 0);
+  color: #000;
+}
+.btn-group .high {
+  background-color: rgb(190, 0, 0);
+}
+.simulate-button {
+  width: 100%;
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: 600;
+}
+form > h3 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+form > h3.success {
+  color: rgb(0, 190, 0);
+}
+form > h3.error {
+  color: rgb(190, 0, 0);
+}
+form > h3.events,
+form .completed h4 {
+  display: flex;
+  gap: 10px;
+}
+form > h3.events span {
+  color: rgb(0, 190, 0);
+}
+form .completed h4.red span {
+  color: rgb(190, 0, 0);
+}
+form .completed h4.green span {
+  color: rgb(0, 190, 0);
+}
+form .completed h4.blue span {
+  color: rgb(0 190 190);
+}
