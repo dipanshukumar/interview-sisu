@@ -61,7 +61,12 @@ const Bptest = () => {
 
       if (!res2.ok) throw new Error(`HTTP error! status: ${res2.status}`);
       const data2 = await res2.json();
-      setSuccess(data2.message);
+      console.log(data2);
+      setSuccess(
+        `${data2.message}, it will take around ${
+          data2.estimatedDuration / 1000
+        } seconds`
+      );
       const streamUrl = `${url}${data2.streamUrl}`;
 
       // Connecting to the stream
