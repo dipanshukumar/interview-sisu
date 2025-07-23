@@ -15,4 +15,6 @@ then run "npm run dev"
 
 make sure that "localhost:3000" is running
 
+now you can go to "http://localhost:5173/" to view the react app
+
 then follow the usual steps
